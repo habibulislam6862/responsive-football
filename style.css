@@ -49,6 +49,10 @@ h3{
     color: white;
     padding: 10px 24px;
     border-radius: 4px;
+    transition: 0.1s ease-in-out;
+}
+.primary-btn:hover{
+    background-color: #971243;
 }
 header, .player-section, footer, .news-letter{
     padding: 0 20px
