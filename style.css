@@ -14,7 +14,6 @@ body{
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
 }
-
 a{
     text-decoration: none;
 }
@@ -54,9 +53,16 @@ header, .player-section{
 .justify-s-between{
     justify-content: space-between;
 }
+.justify-center{
+    justify-content: center;
+}
+.align-center{
+    align-items: center;
+}
 .grid{
     display: grid;
 }
+
 /*Header style*/
 header{
     background: #2D25A0;
@@ -75,7 +81,7 @@ header h1{
     flex-basis: 485px;
 }
 
-/*Player grid*/
+/*Player grid style*/
 .player {
     margin-top: 70px;
 }
@@ -100,6 +106,31 @@ header h1{
 }
 .player-single p{
     color: #6C6C6C
+}
+
+/*Footer style*/
+footer{
+    margin-top: 165px;
+    padding-bottom: 20px;
+}
+footer>.flex{
+    flex-direction: column;
+}
+.footer-logo{
+    max-width:483px
+
+}
+.social-link{
+    font-size: 17px;
+    column-gap: 14px;
+}
+.social-link a{
+    color: #969BAB;
+}
+.social-link i{
+    background-color: #E7E7E8;
+    border-radius: 50%;
+    padding: 10px
 }
 
 /*@media rule*/
