@@ -28,6 +28,10 @@ h2{
     line-height: 40px;
     font-size: 28px;
 }
+h3{
+    font-size: 28px;
+    line-height: 33px;
+}
 .container, .container-fluid{
     margin: 0 auto;
 }
@@ -37,13 +41,16 @@ h2{
 .container-fluid{
     max-width: 1160px;
 }
+.text-center{
+    text-align: center;
+}
 .primary-btn{
     background-color: #E02C6D;
     color: white;
     padding: 10px 24px;
     border-radius: 4px;
 }
-header, .player-section{
+header, .player-section, footer, .news-letter{
     padding: 0 20px
 }
 .flex{
@@ -109,16 +116,52 @@ header h1{
 }
 
 /*Footer style*/
-footer{
+.news-letter{
+    background: #2D25A0;
     margin-top: 165px;
+    padding: 30px
+}
+.news-letter .flex{
+    flex-direction: column;
+}
+.news-letter .flex>*{
+    flex-basis: 100%;
+}
+.news-letter h3{
+    color: white;
+}
+.news-letter input[type=email]{
+    width: 100%;
+    border: none;
+}
+.news-letter input[type=email]:focus{
+    outline: 0;
+}
+.news-letter input[type=email],
+.news-letter button[type=submit] {
+    padding: 10px;
+    font-size: 20px;
+}
+.news-letter button[type=submit]{
+    color:white;
+    background-color: transparent;
+    border: 2px solid white;
+    width: 100%;
+    margin-top: 20px;
+    cursor: pointer
+}
+
+/*Footer style*/
+footer{
     padding-bottom: 20px;
+    margin-top: 158px;
 }
 footer>.flex{
     flex-direction: column;
 }
 .footer-logo{
-    max-width:483px
-
+    width: 483px;
+    max-width: 100%;
 }
 .social-link{
     font-size: 17px;
